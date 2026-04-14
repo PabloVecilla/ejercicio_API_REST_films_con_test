@@ -1,0 +1,96 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 1,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 2,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1776165842571,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 1,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1776165843677,
+        "runtime": 892,
+        "slow": false,
+        "start": 1776165842785
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/pablov/Desktop/theBridge/BACKEND/ejercicio_API_REST_films_con_test/test/fetchFilms.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "fetchFilm utility"
+          ],
+          "duration": 437,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "TypeError: Cannot read properties of null (reading 'Title')\n    at Object.Title (/Users/pablov/Desktop/theBridge/BACKEND/ejercicio_API_REST_films_con_test/test/fetchFilms.test.js:10:17)\n    at processTicksAndRejections (node:internal/process/task_queues:104:5)"
+          ],
+          "fullName": "fetchFilm utility should return movie details for a known movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should return movie details for a known movie"
+        },
+        {
+          "ancestorTitles": [
+            "fetchFilm utility"
+          ],
+          "duration": 164,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "fetchFilm utility should return null for a non-existent movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return null for a non-existent movie"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mfetchFilm utility › should return movie details for a known movie\u001b[39m\u001b[22m\n\n    TypeError: Cannot read properties of null (reading 'Title')\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  8 |\u001b[39m       console\u001b[33m.\u001b[39merror(\u001b[32m\"Expected movie details for 'Inception', but got nothing.\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m  9 |\u001b[39m     }\u001b[22m\n\u001b[2m    \u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 10 |\u001b[39m     expect(data\u001b[33m.\u001b[39m\u001b[33mTitle\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[32m'Inception'\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m    |\u001b[39m                 \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 11 |\u001b[39m     \u001b[36mif\u001b[39m (data\u001b[33m.\u001b[39m\u001b[33mTitle\u001b[39m \u001b[33m!==\u001b[39m \u001b[32m'Inception'\u001b[39m) {\u001b[22m\n\u001b[2m     \u001b[90m 12 |\u001b[39m       console\u001b[33m.\u001b[39merror(\u001b[32m\"Expected movie title to be 'Inception', but got a different title.\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 13 |\u001b[39m     }\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.Title (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/fetchFilms.test.js\u001b[39m\u001b[0m\u001b[2m:10:17)\u001b[22m\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "wasInterrupted": false
+}
